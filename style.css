@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+ol {
+  margin: auto;
+  text-align: left;
+  width: 30%;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
