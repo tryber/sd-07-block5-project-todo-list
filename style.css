@@ -1,0 +1,55 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+.backgroundItemList {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.botoes {
+  margin-top: 10px;
+}
+
+.main-content {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 380px;
+  margin-top: 15px;
+  padding-top: 10px;
+  text-align: center;
+  width: 600px;
+}
+
+.list {
+  border: 1px black solid;
+  border-radius: 9px;
+  line-height: 25px;
+  list-style: symbols();
+  margin-left: 38px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 13px;
+  text-align: left;
+  width: 80%;
+}
+
+.button {
+  backface-visibility: hidden;
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: Open Sans, sans-serif;
+  font-size: large;
+  position: relative;
+  text-decoration: underline black;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.icon {
+  text-decoration: none;
+}
