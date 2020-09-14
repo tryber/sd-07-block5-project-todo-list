@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+
+  <div class="to-do-list">
+
+    <section class="data-colect">
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+      <input type="text" name="texto-tarefa" id="texto-tarefa" placeholder="Digite Aqui Sua Tarefa">
+      <button id="criar-tarefa">Criar Tarefa</button>
+    </section>
+
+    <section class="list-board">
+      <ol id="lista-tarefas"></ol>
+    </section>
+
+    <section class="buttons-collection">
+      <div class="buttons move">
+          <button class="button" id="mover-cima">Mover para Cima</button>
+          <button class="button" id="mover-baixo">Mover para Baixo</button>
+      </div>
+
+      <div class="buttons remove">
+        <button class="button" id="remover-selecionado">Remover Selecionado</button>
+        <button class="button" id="remover-finalizados">Remover Finalizados</button>
+        <button class="button" id="apaga-tudo">Apagar Tudo</button>
+      </div>
+
+      <div class="buttons save">
+        <button class="button"id="salvar-tarefas">Salvar Tarefas</button>
+        <button class="button"id="limpar-localStorage">Lmpar Itens Salvos</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.buttons {
+  height: 33%;
+  vertical-align: middle;
+}
+
+.buttons-collection {
+  display: inline-block;
+  height: 400px;
+  vertical-align: top;
+  width: 200px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.data-colect {
+  background-color: antiquewhite;
+  margin: auto;
+  padding: 10px;
+}
+
+.list-board {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 415px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.move {
+  background-color: aqua;
+}
+
+.remove {
+  background-color: aquamarine;
+}
+
+.save {
+  background-color: darkkhaki;
+}
+
+.to-do-list , header {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  margin-top: 0;
+}
