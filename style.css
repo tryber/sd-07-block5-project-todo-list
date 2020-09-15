@@ -1,0 +1,86 @@
+header {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+header , p , .input-text {
+  margin-left: 15px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+main {
+  background-color: rgb(38 , 100 , 224);
+  height: 500px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.button-content {
+  background-color: rgb(151 , 36 , 151);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 500px;
+}
+
+.button-content button {
+  border-radius: 18px;
+  display: inline;
+}
+
+.task-list {
+  background-color: white;
+  border-radius: 12px;
+  height: 200px;
+  margin: 10px;
+  overflow: auto;
+  padding-top: 20px;
+  width: 90%;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+}
+
+footer img {
+  width: 80px;
+}
+
+.remove-selected {
+  background-color: rgb(199 , 15 , 82);
+}
+
+.move-up {
+  background-color: rgb(208 , 255 , 0);
+}
+
+.move-down {
+  background-color: gold;
+}
+
+.clear {
+  background-color: rgb(255 , 0 , 4);
+}
+
+.finish {
+  background-color: rgb(255 , 129 , 1);
+}
+
+.save {
+  background-color: rgb(77 , 255 , 0);
+}
