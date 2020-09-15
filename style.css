@@ -1,0 +1,36 @@
+body {
+  background-color: beige;
+}
+
+header{
+  text-align: center;
+}
+
+.input {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: rgb( 200 , 200 , 200 );
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  height: 400px;
+  padding: 15px;
+  width: 70%;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.buttons {
+  width: 75%;
+  margin: auto;
+}
