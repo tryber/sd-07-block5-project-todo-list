@@ -1,0 +1,15 @@
+.main-title {
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0;
+}
+
+.selected {
+  background-color: grey;
+}
+
+.completed {
+  text-decoration: line-through;
+}
