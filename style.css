@@ -1,0 +1,11 @@
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+li {
+  cursor: pointer;
+}
