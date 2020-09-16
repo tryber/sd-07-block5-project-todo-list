@@ -1,0 +1,15 @@
+#lista-tarefas{
+    cursor: pointer
+}
+
+.selecionado{
+    background-color: rgb(128,128,128);
+}
+
+li{
+    background-color: rgb(255,255,255);
+}
+
+.completed{
+    text-decoration: line-through solid rgb(0,0,0);
+}
