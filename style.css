@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding-bottom: 40px;
+  border: solid black 5px;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header p {
+  color: gray;
+  font-style: italic;
+  text-align: center;
+}
+
+.section-input {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.section-input button {
+  background-color: #03cea4;
+  border: hidden;
+  border-radius: 10%;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+  height: 30px;
+  width: 150px;
+}
+
+.section-input button:hover {
+  background-color: #64b6ac;
+}
+
+.section-input input {
+  border: gray solid 3px;
+  border-radius: 10%;
+  height: 20px;
+  width: 250px;
+}
+
+.section-list {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.section-list ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.section-buttons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.section-buttons .apagar {
+  background-color: #307351;
+  border: hidden;
+  border-radius: 10%;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+  height: 30px;
+  width: 200px;
+}
+
+.section-buttons .apagar:hover {
+  background-color: #26413c;
+}
+
+.section-buttons .salvar {
+  background-color: #274c77;
+  border: hidden;
+  border-radius: 10%;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+  height: 30px;
+  width: 150px;
+}
+
+.section-buttons .salvar:hover {
+  background-color: #447199;
+}
+
+.section-buttons .mover {
+  background-color: #f7ef99;
+  border: hidden;
+  border-radius: 10%;
+  color: black;
+  font-weight: 600;
+  margin-left: 20px;
+  height: 30px;
+  width: 150px;
+}
+
+.section-buttons .mover:hover {
+  background-color: #f4d590;
+}
