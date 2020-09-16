@@ -1,0 +1,44 @@
+#body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+header{
+    font-size: 30px;
+}
+li{
+    margin:auto;
+    padding: 10px 30px 10px 10px;
+    padding
+}
+#fundo{
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    display: center;
+    margin-top: 10%;
+}
+#lista-tarefas{
+    width: fit-content;
+    background-color: lightblue; 
+    margin: auto;
+    height: fit-content;
+    border-radius: 25px;
+    margin-top: 10px;
+    
+}
+.item{
+    width: fit-content;
+    
+}
+.selected{
+    background-color: rgb(128, 128, 128);
+}
+.completed{
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+#mover-cima #mover-baixo{
+    width: 200px;
+}
+button{
+    background-color: lightblue
+}
