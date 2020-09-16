@@ -1,0 +1,47 @@
+.selected {
+    background-color: gray !important;
+    border-radius: 10px !important;
+    padding-left: 10px !important; 
+    opacity: 0.8;
+    transition: padding 0.5s ,opacity 0.5s ,border-radius 0.1s !important; /* CSS transitions permite que as mudanças nos valores das
+                                          propriedades CSS ocorram suavemente sobre uma duração*/
+    color:white;
+  }
+  .list-group{
+    padding: 20px;
+    margin-top: 15px;
+  }
+  
+  .completed {
+    text-decoration: line-through solid black;
+    
+  }
+
+  .jumbotron{
+    margin-top: 10%;
+    text-align: center;
+   
+  }
+
+  
+
+  .inputAparencia{
+    border-radius:4px;
+    /*deslocamento de sombras   */
+    box-shadow: 1px 1px 2px #333333;    
+    background: gray; 
+    border:1px solid #000000;
+    width:200px;
+    color:white;
+    opacity: 0.8;
+
+   }
+
+    .inputAparencia:hover{
+    background: #ffffff; border:1px solid #d11111;
+    color:black;
+
+    }
+    body{
+      background-color: whitesmoke !important;
+    }

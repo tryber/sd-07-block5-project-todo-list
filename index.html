@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lista</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+  <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  <body>
+    <div class="jumbotron">
+    <header><h1>Minha Lista de Tarefas</h1>
+    
+    </header>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <input class="inputAparencia" id="texto-tarefa" >
+    
+    <ol class="list-group" id="lista-tarefas">
+      
+    </ol>
+
+    <button class="btn btn-outline-success" id="criar-tarefa">Criar tarefa</button>
+    <button type="button" class="btn btn-outline-warning" id="mover-baixo" >baixo</button>
+    <button type="button" class="btn btn-outline-warning" id="mover-cima" >cima</button>
+    <button class="btn btn-outline-danger" id="apaga-tudo">Apagar lista</button>
+    <button id="remover-selecionado" type="button" class="btn btn-outline-secondary">Remover selecionado</button>
+    <button class="btn btn-outline-dark" id="remover-finalizados">Remover finalizados</button>
+
+    <button  id="salvar-tarefas" class="btn btn-outline-info" >salvar tarefas</button>
+  </div>
+
+  </body>
+  <script  type="text/javascript" src="script.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
