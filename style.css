@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(169, 201, 137);
+  text-align: center;
+}
+
+#funcionamento {
+  color: rgb(100, 95, 95);
+}
+
+/* .button {
+
+} */
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+#remover-finalizados {
+  margin-top: 5px;
+}
