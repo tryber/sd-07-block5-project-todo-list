@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>Minha Lista de Tarefas</header>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <input id="texto-tarefa">
+    <ol id="lista-tarefas">
+
+    </ol>
+    <button id="criar-tarefa">Criar tarefas</button>
+    <!-- 10 - Deve haver um botão com id="apaga-tudo" que quando clicado deve apagar todos os items da lista.
+As seguintes verificações serão feitas:
+Será verificado que existe um elemento button com o id apaga-tudo
+Será verificado que, dado que uma lista possui tarefas, um clique no botão a deixa vazia -->
+    <button id="apaga-tudo">Apaga Tudo</button>
+    <!-- 11 - Deve haver um botão com id="remover-finalizados" que quando clicado remove somente os elementos finalizados da sua lista.
+As seguintes verificações serão feitas:
+Será verificado que existe um elemento button com o id remover-finalizados
+Será verificado que, ao clicar no botão, todos os elementos marcados como feitos são removidos da lista -->
+    <button id="remover-finalizados">Remover Finalizados</button>
+    <!-- BÔNUS
+12 - Adicione um botão com id="salvar-tarefas" que salve o conteúdo da lista. Se você fechar e reabrir a página, a lista deve continuar no estado em que estava.
+As seguintes verificações serão feitas:
+Será verificado que existe um elemento button com o id salvar-tarefas
+Será verificado que, quando a lista tem vários elementos, alguns dos quais marcados como finalizados, um recarregamento da página mantém a lista exatamente como está. -->
+    <button id="salvar-tarefas">Salvar Tarefas</button>
+    <!-- 13 - Adicione dois botões, um com id="mover-cima" e outro com id="mover-baixo", que permitam mover o item selecionado para cima ou para baixo na lista de tarefas.
+Pontos importantes sobre este requisito bônus:
+
+* Antes de começar a desenvolver essa funcionalidade, pare e pense. O que significa mover um item de uma lista para cima ou para baixo no **_DOM_**? Você já possui todas as habilidades necessárias para fazer isso.
+
+* Habitue-se a pensar nos casos especiais ao construir programas. O que acontece se o usuário tentar mover o primeiro item para cima ou o último para baixo?
+As seguintes verificações serão feitas:
+Será verificada a existência de dois elementos button, um com o id mover-cima e o outro com o id mover-baixo
+Será verificado que, dado que diversos elementos foram acrescentados à lista, movimentá-los de formas diversas os deixa nas posições esperadas
+Será verificado que, caso algum elemento esteja finalizado, este status deve persistir ainda que se mova o elemento
+Será verificado que, caso nenhum elemento esteja selecionado, clicar nos botões não altera a lista
+Será verificado que um elemento que esteja selecionado deve se manter selecionado mesmo depois de movido
+Caso especial! Será verificado que, caso se tente subir o elemento no topo da lista ou, caso se tente descer o último elemento da lista, esta não deve ser alterada -->
+    <button id="mover-cima">Mover Para Cima</button>
+    <button id="mover-baixo">Mover Para Baixo</button>
+    <!-- 14 - Adicione um botão com id="remover-selecionado" que, quando clicado, remove o item selecionado.
+As seguintes verificações serão feitas:
+Será verificada a presença de um elemento button com um id remover-selecionado
+Será verificado que, no clicar no botão, somente o elemento selecionado é removido -->
+    <button id="remover-selecionado">Remover Selecionado</button>
+    <script src="script.js"></script>
+</body>
+</html> 

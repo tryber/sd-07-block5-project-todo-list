@@ -1,0 +1,11 @@
+/* 9 - Ao clicar duas vezes em um item, ele deverá ser riscado, indicando que foi completo. Deve ser possível desfazer essa ação clicando novamente duas vezes no item.
+
+Pontos importantes sobre este requisito:
+
+* Crie uma classe CSS com o nome "completed" e defina a propriedade "text-decoration" com o valor "line-through".
+
+* Utilize a classe CSS "completed" para adicionar o efeito de letra tachada (riscada) às tarefas finalizadas. */
+
+.completed {
+    text-decoration: line-through;
+}
