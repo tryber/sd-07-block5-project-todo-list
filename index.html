@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📝Doto List | Trybe </title>
+  <link rel="stylesheet" href="/style.css">
+  <link  href = " https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap " rel = " stylesheet " >
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento" class="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo
+      </p>
+    </header>
+    <section>
+      <input type="text" id="texto-tarefa">
+      <button id=criar-tarefa class='button add'>Adiciona</button>
+    </section>
+    <section>
+      <ol id="lista-tarefas"></ol>
+    </section>
+    <section>
+        <button id=remover-selecionado class='button clean'>x</button>
+        <button id='remover-finalizados' class='button cleanComplet'>Limpar Completos</button>
+        <button id='apaga-tudo' class='button clean'>Limpar lista</button>
+        <button id=salvar-tarefas class='button save'>Salvar Lista</button>
+    </section>
+  </main>
+  <footer class="rodape">
+    <p>Conteúdo compilado por, <strong>Elano Evaristo</strong> 💚</p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>

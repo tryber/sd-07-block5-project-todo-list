@@ -1,0 +1,85 @@
+
+body {
+  background: rgb(148, 217, 145);
+  background-size: 1366px 768px;
+  font-family: Roboto, sans-serif;
+}
+
+main {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1em;
+  height: 600px;
+  margin: auto;
+  padding: 10px 30px;
+  position: relative;
+  width: 80%;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+}
+
+.funcionamento {
+  padding: 5px;
+  text-align: left;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.input-box {
+  font-size: 1em;
+  height: 25px;
+  margin: 5px;
+  width: 292px;
+}
+
+button {
+  border: currentColor;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356);
+  color: white;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: 5px;
+  padding: 7px 15px;
+}
+
+.add {
+  background: rgb(4, 157, 217);
+}
+
+.clean {
+  background: rgb(140, 27, 36);
+}
+
+.cleanComplet {
+  background: rgb(4, 157, 217);
+}
+
+.save {
+  background: rgb(66, 166, 63);
+}
+
+.list {
+  float: left;
+  width: 50%;
+}
+
+.rodape {
+  background: black;
+  border: 2px;
+  color: white;
+  margin-top: 72px;
+  padding: 1px;
+  text-align: center;
+}
