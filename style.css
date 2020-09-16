@@ -1,0 +1,25 @@
+#funcionamento{
+    display: block;
+    margin: 20px;
+}
+
+#texto-tarefa{
+    margin: 20px;
+}
+
+#botoes{
+    margin: 20px;
+}
+
+.itens{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255,255);
+}
+
+.completed{
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.selected{
+    background-color: rgb(128, 128, 128);
+}
