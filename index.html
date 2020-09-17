@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do List | Project</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&family=Ubuntu+Mono:ital@1&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+  <main>
+    <section>
+      <p class="dbclick" id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+      <form>
+        <p><label for="texto-tarefa">Adicione à lista:</label> <input type="text" id="texto-tarefa" placeholder="comprar chocolate"></p>
+        <button id="criar-tarefa" class="text-button">Criar tarefa</button>
+        <button id="remover-finalizados" class="text-button">Limpar tarefas completas</button>
+        <button id="apaga-tudo" class="text-button">Limpar lista</button>
+        <br>
+        <button id="mover-cima" class="icons-button"><img src="./upload.png" alt="Aumentar prioridade"></button>
+        <button id="salvar-tarefas" class="icons-button"><img src="./save.png" alt="Salvar lista"></button>
+        <button id="mover-baixo" class="icons-button"><img src="./down-arrow.png" alt="Abaixar prioridade"></button>
+        <button id="remover-selecionado" class="icons-button"><img src="./trash.png" alt="Excluir item"></button>
+      </form>
+    </section>
+    <aside>
+      <h2>Lista de Tarefas</h2>
+      <ol id="lista-tarefas">
+      </ol>
+    </aside>
+  </main>
+  <footer>
+    <h3>Todos os direitos reservados, Moisés Santana</h3>
+    <address class="social-media">
+      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/transform -->
+      <a href="https://www.github.com/MoisesSantana" target="_blank"><img src="./github.png" alt="Git-Hub"></a>
+      <a href="https://www.linkedin.com/in/Moises-Santana" target="_blank"><img src="./linkedin.png" alt="linkedIn"></a>
+    </address>
+
+    <address class="icons-link">
+      <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a></p>
+    </address>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
