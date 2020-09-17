@@ -1,0 +1,84 @@
+.body {
+  background-attachment: fixed;
+  background-image: url('https://images.unsplash.com/photo-1513617855986-6ad7b0dfb9f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+}
+
+.main-title {
+  font-family: Indie Flower, cursive;
+  font-size: 3.5em;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px rgba(0 , 0 , 0 , 0.26);
+}
+
+.funcionamento {
+  border: dashed 1px black;
+  margin: 0 7px 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.main {
+  background-color: rgba(255 , 255 , 255 , 0.884);
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0 , 0 , 0 , 0.432);
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1em;
+  height: 600px;
+  margin: auto;
+  padding: 10px 30px;
+  position: relative;
+  width: 80%;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.input-box {
+  font-size: 1em;
+  height: 25px;
+  margin: 5px;
+  width: 292px;
+}
+
+.button {
+  border: currentColor;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0 , 0 , 0 , 0.356);
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: 5px;
+  padding: 7px 15px;
+}
+
+.add {
+  background-color: rgb(59 , 66 , 66);
+}
+
+.clean {
+  background-color: rgb(148 , 120 , 113);
+}
+
+.list {
+  float: left;
+  width: 50%;
+}
+
+.image {
+  bottom: 10px;
+  float: right;
+  position: absolute;
+  right: 5px;
+  width: 30%;
+}

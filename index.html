@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body class='body'>
+    <main class='main'>
+<header>
+    <h1 class='main-title'>Minha Lista de Tarefas</h1>
+    <p id='funcionamento' class='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+</header>
+    <section class='topOf'>
+        <input id='texto-tarefa' class='input-box' type="text">
+        <div class='button-list'>
+            <button id=criar-tarefa class='button add'>Adiciona tarefa na lista</button>
+            <button id=salvar-tarefas class='button add'>Salvar a lista</button>
+            <button id='mover-cima' class='button add'>Mover p/ cima</button>
+            <button id='mover-baixo'class='button add'>Mover p/ baixo</button>
+            <button id=remover-selecionado class='button clean'>Remover item selecionado</button>
+            <button id='remover-finalizados' class='button clean'>Remove os itens executados</button>
+            <button id='apaga-tudo' class='button clean'>Limpar lista</button>
+
+        </div>
+    </section>
+
+        <section class='bottom'>
+
+                <ol id='lista-tarefas' class='list'></ol>
+
+                <img class='image' src="https://static.thenounproject.com/png/2352018-200.png" alt="Imagem decorativa de lápis">
+
+        </section>
+        <div>
+
+        </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</main>
+</body>
+</html>
