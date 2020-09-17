@@ -1,0 +1,11 @@
+.novaTarefa {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selecionado {
+    background-color: rgb(128,128,128);
+}
+
+.finalizado{
+    text-decoration: line-through solid black;
+}
