@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="container">
+   <header>
+    <img src="imgs/logoTodoList.png" alt="Logo do site">
+   </header>
+  <section>
+   <header>
+    <h2>Minha Lista de Tarefas</h2>
+    <p class="sub" id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+   </header>
+  <input type="text" name="" id="texto-tarefa" onfocus placeholder="Tarefas aqui ;)">
+  <button id="criar-tarefa" class="btn-newTask">Nova tarefa + </button>
+  <button id="apaga-tudo" class="btn-trash"> Deletar Lista </button>
+  <div class="containerList" id="container-list">
+  </div>
+  <div class="actions">
+   <button id="mover-cima" class="btn-up"> &#8593</button>
+   <button id="mover-baixo" class="btn-down"> &#8595 </button>
+   <button id="remover-selecionado" class ="btn-trash"> Remover </button>
+   <button id="salvar-tarefas" class="btn-save"> Salvar </button>
+  </div>
+  </section>
+  <footer>
+   <p class="created">Created by Filipi Firmino</p>
+  </footer>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
