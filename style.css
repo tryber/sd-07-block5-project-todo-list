@@ -1,0 +1,39 @@
+html {
+	font-family: BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+	background-color: beige;
+	margin: 100px;
+	padding: 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.remover-selecionado {
+	margin-left: 1px;
+}
+
+.apaga-tudo {
+	margin-left: -50px;
+}
+
+.funcionamento {
+	text-align: center;
+}
+
+.paragraph {
+	margin-left: 80px;
+}
+
+ol {
+	margin-left: -65px;
+}
+
+.wrapper {
+	display: inline-block;
+	margin-left: 400px;
+	margin-top: 15px;
+}
