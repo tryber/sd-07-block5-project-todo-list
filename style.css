@@ -1,0 +1,49 @@
+.add {
+  background-color: rgb(95 , 170 , 189);
+}
+
+body {
+  background-color: rgb(255 , 192 , 169);
+  display: block;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  margin: auto;
+  text-align: center;
+}
+/* estilo do botão baseado em https://www.youtube.com/watch?v=JOowa0_1scU */
+.button {
+  border: none;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 700;
+  width: 206px;
+}
+
+.clear {
+  background-color: cornsilk;
+}
+
+header {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.remove {
+  background-color: darkgrey;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
