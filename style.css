@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  margin-left: 350px;
+}
+
+header {
+  width: 1000px;
+  height:200px;
+  margin-left: 350px;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+
+.completo {
+    text-decoration: line-through solid black;
+  }
+  
+.selecionado {
+    background-color: gray;
+  }
