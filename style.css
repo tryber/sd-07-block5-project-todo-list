@@ -1,0 +1,32 @@
+button {
+  height: 25px;
+  margin: 5px 0 5px 5px;
+  padding: 2px;
+  width: 150px;
+}
+
+div {
+  padding: 20px;
+}
+
+header {
+  padding: 20px;
+}
+
+input {
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 26px;
+  margin: 5px;
+  padding: 2px;
+  width: 300px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
