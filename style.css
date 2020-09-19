@@ -1,0 +1,16 @@
+body {
+  margin-left: 10px;
+}
+
+.criar-tarefa {
+  height: 20px;
+  width: 90px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
