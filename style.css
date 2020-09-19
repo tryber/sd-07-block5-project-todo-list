@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.head-class {
+  box-shadow: 1px 1px 3px black;
+  margin-top: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  background-color: aliceblue;
+  color: navy;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-shadow: 1px 2px 3px black;
+}
+
+.main-class {
+  margin: 0;
+  min-height: 300px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
