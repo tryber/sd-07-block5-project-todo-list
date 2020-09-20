@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <title>To Do List - Trybe Project</title>
+</head>
+<body>
+  <header>Minha Lista de Tarefas</header>
+  <p id="funcionamento" class="funcionamento">Clique duas vezes em um item para marcá-lo como completo!
+  </p>
+  <label for="texto-tarefa">Descrição: </label>
+  <input type="text" id="texto-tarefa" class="texto-tarefa">
+  <br>
+  <button type="button" id="criar-tarefa">Adicionar</button>
+  <button type="button" id="mover-cima">Sobe</button>
+  <button type="button" id="mover-baixo">Desce</button>
+  <ol id="lista-tarefas"></ol>
+  <div>
+    <button type="button" id="apaga-tudo">Apagar Tarefas</button>
+    <button type="button" id="remover-finalizados">Remover Finalizados</button>
+    <button type="button" id="salvar-tarefas">Salvar Tarefas</button>
+    <button type="button" id="remover-selecionado">Remover Selecionado</button>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

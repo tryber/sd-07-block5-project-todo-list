@@ -1,0 +1,67 @@
+.funcionamento {
+  font-size: small;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.completed {
+  font-family: Permanent Marker, cursive;
+  font-size: x-large;
+  text-decoration: line-through solid black;
+}
+
+body {
+  background-color: rgb(230 , 230 , 230);
+  font-family: Unbuntu, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(14 , 144 , 173);
+  color: white;
+  font-size: xx-large;
+  left: 0;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  top: 0;
+}
+
+button {
+  background-color: rgb(89 , 192 , 223);
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 15px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+body > button {
+  padding: 5px 20px;
+}
+
+div > button {
+  height: 30px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: rgb(0 , 98 , 126);
+  color: white;
+}
+
+label {
+  padding-left: 20px;
+}
+
+li {
+  cursor: cell;
+  user-select: none;
+}
+
+.tarefa {
+  font-family: Permanent Marker, cursive;
+  font-size: x-large;
+}
