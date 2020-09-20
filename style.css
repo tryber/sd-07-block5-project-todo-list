@@ -1,0 +1,10 @@
+.completed{
+  text-decoration: line-through solid black;
+}
+
+.selected{
+  background-color: rgb(128,128,128);
+}
+.tarefa{
+  cursor: pointer;
+}
