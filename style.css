@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: cyan;
+  color: rgba(91 , 100 , 107 , 0.9);
+  height: 50px;
+  left: 0;
+  padding-bottom: 25px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.fatherbuttonformat {
+  background-color: rgba(35 , 177 , 232 , 0.91);
+  border-radius: 15%;
+  height: 100px;
+  left: 30px;
+  margin-top: 165px;
+  padding-top: 35px;
+  position: fixed;
+  text-align: center;
+  width: 50%;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.tasklist {
+  background-color: rgba(30 , 176 , 232 , 0.5);
+  border-radius: 15px;
+  float: right;
+  height: 200px;
+  left: 750px;
+  margin: 10px;
+  overflow: auto;
+  padding-top: 0;
+  position: absolute;
+  text-align: justify;
+  top: 130px;
+  width: 40%;
+}
+
+.tasklist ol {
+  display: inline;
+  left: 150px;
+  position: absolute;
+}
+
+input {
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 10px;
+  color: gray;
+  font-size: 14px;
+  padding: 7px;
+  width: 500px;
+}
