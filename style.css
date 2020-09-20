@@ -1,0 +1,104 @@
+body {
+  background-color: darkolivegreen;
+}
+
+.sessao {
+  background-color: rgb(181 , 210 , 235);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  width: 63%;
+}
+
+.head {
+  color: brown;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+  font-size: 25px;
+  font-style: oblique;
+}
+
+.funciona {
+  color: rgb(50 , 90 , 92);
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+  font-size: 20px;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+.lista {
+  font-size: 25px;
+  font-style: oblique;
+  margin-left: 25px;
+}
+
+.text {
+  font-size: 20px;
+  font-style: oblique;
+  margin-left: 25px;
+}
+
+.cria {
+  background-color: rgb(166 , 103 , 190);
+  color: aliceblue;
+  font-size: 20px;
+  font-style: oblique;
+  margin-left: 5px;
+}
+
+.selected {
+  background-color: gray;
+  width: 81%;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.limpa {
+  background-color: rgb(65 , 98 , 158);
+  color: aliceblue;
+  font-size: 18px;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+.final {
+  background-color: rgb(163 , 126 , 30);
+  color: aliceblue;
+  font-size: 18px;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+.salva {
+  background-color: rgb(56 , 136 , 24);
+  color: aliceblue;
+  font-size: 18px;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+.remover {
+  background-color: rgb(163 , 30 , 30);
+  color: aliceblue;
+  font-size: 18px;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+.cima {
+  background-color: rgb(38 , 109 , 109);
+  color: aliceblue;
+  font-size: 18px;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+.baixo {
+  background-color: rgb(163 , 79 , 30);
+  color: aliceblue;
+  font-size: 18px;
+  font-style: oblique;
+  margin-left: 20px;
+}
