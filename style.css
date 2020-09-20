@@ -1,0 +1,12 @@
+body {
+  margin: 50px auto;
+  width: 40%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  background-color: gray;
+}
