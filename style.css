@@ -1,0 +1,23 @@
+body {
+    background-color: burlywood;
+    margin: 0%;
+}
+header {
+    background-color: darkgoldenrod;
+    display: inline-block;
+}
+.add-text {
+    background-color: cornflowerblue;
+}
+.buttons {
+    background-color: chocolate;
+    display: inline-block;
+}
+
+.completed {
+    text-decoration: line-through solid rgb(0 , 0 , 0);
+}
+
+.selected {
+    background-color: rgb(128 , 128 , 128);
+}
