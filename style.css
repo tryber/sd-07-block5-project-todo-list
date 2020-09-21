@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    font-family: monospace;
+    text-align: center;
+}
+.destaque {
+    background-color: antiquewhite;
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.campo-texto-tarefa {
+    width: 350px;
+}
+.bloco {
+    display: inline-block;
+    text-align: left;
+    border: 2px solid black;
+    width: 600px;
+    height: auto;
+    padding: 25px;
+    font-size: 14px;
+}
+.item {
+    
+}
+.completed {
+    text-decoration: line-through solid rgb(0 , 0 , 0);
+}
+.selected-item {
+    background-color: rgb(128,128,128);
+}
