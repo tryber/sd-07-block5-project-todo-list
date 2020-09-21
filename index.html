@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Minha Lista de Tarefas</h1></header>
+    <div id="aplicativo">
+      <p id="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo
+      </p>
+      <input id="texto-tarefa" />
+      <button type="button" id="criar-tarefa">Adicionar</button>
+      <br />
+      <br />
+      <div id="lista">
+        <ol id="lista-tarefas"></ol>
+      </div>
+      <br />
+      <br />
+      <button type="button" id="limpa-selecao">Limpar seleção</button>
+      <button type="button" id="apaga-tudo">🗑️</button>
+      <button type="button" id="remover-finalizados">Remover finalizados</button>
+      <button type="button" id="remover-selecionado">Remover selecionado</button>
+      <button type="button" id="mover-baixo">&#x25bc;</button>
+      <button type="button" id="mover-cima">&#9650;</button>
+      <button type="button" id="salvar-tarefas" disabled="true">&#x1f4be</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
