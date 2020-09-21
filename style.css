@@ -1,0 +1,26 @@
+.side-by-side {
+  display: inline-block;
+}
+
+#criar-tarefa {
+  background-color: gray;
+  color: white;
+  height: 21px;
+  width: 90px;
+}
+
+#apaga-tudo,
+#remover-finalizados {
+  background-color: gray;
+  color: white;
+  height: 21px;
+  width: 110px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
