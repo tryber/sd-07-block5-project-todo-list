@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project: ToDo List</title>
+  </head>
+  <body>
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento">
+        <em>Clique duas vezes em um item para marcá-lo como completo</em>
+      </p>
+    </header>
+    <main>
+      <form onsubmit="return false">
+        <label for="texto-tarefa">Adicione tarefas</label>
+        <input type="text" id="texto-tarefa" />
+        <button data-click="btnAddList" type="button" id="criar-tarefa">
+          Add in List
+        </button>
+        <ol id="lista-tarefas"></ol>
+        <button data-click="clearList" id="apaga-tudo" type="button">
+          Clear All
+        </button>
+        <button
+          data-click="removeCompleted"
+          type="button"
+          id="remover-finalizados"
+        >
+          Clear Completed
+        </button>
+        <button type="button" data-click="saveList" id="salvar-tarefas">
+          Save List
+        </button>
+        <button data-click="moveUpSelected" type="button" id="mover-cima">
+          Mover Cima
+        </button>
+        <button data-click="moveDownSelected" type="button" id="mover-baixo">
+          Mover Baixo
+        </button>
+        <button
+          data-click="removeSelected"
+          type="button"
+          id="remover-selecionado"
+        >
+          Remover Selecionado
+        </button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
