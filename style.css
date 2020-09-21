@@ -1,0 +1,26 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 10px solid black;
+  padding: 50px;
+}
+
+.selecionado {
+  background-color: rgb(128, 128, 128);
+}
+
+header {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+#criar-tarefa {
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
