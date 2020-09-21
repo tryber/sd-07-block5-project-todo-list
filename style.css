@@ -1,0 +1,12 @@
+.item-list {
+  user-select: none;
+  background-color: transparent;
+}
+
+.selected-task {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
