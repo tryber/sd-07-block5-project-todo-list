@@ -1,0 +1,100 @@
+/* Page decoration tip https://youtu.be/Gp2bUX7_WIg */
+.apagar {
+  background-color: orange;
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
+  height: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(0 , 255 , 0);
+  border: none;
+  border-radius: 25px;
+  color: black;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  height: 50px;
+  margin-left: 20px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+header {
+  color: white;
+  font-family: 'Hind', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 0.5rem 1rem;
+  text-align: center;
+}
+
+li {
+  box-sizing: content-box;
+  display: block;
+  font-family: monospace;
+  font-size: large;
+  line-height: 2rem;
+  margin-left: 5%;
+  text-align: left;
+  width: 450px;
+}
+
+.move {
+  background-color: blue;
+}
+
+ol {
+  background-color: indigo;
+  box-sizing: content-box;
+  height: 250px;
+  margin-left: 0;
+  overflow: scroll;
+  width: 60%x;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+}
+
+span {
+  color: lime;
+  font-weight: 800;
+}
+
+.texto-tarefa {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.15rem;
+  height: 20px;
+  margin: 0.25rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  width: 450px;
+}
+
+.selected {
+  background-color: gray;
+}

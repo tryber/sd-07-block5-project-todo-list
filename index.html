@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+</head>
+<body>
+    <header><span>Minha Lista</span> de Tarefas</header>
+    <p id='funcionamento'>
+        Clique duas vezes em um item para marcá-lo como completo
+    </p><br>
+<div>
+    <input class='texto-tarefa' type='text' id='texto-tarefa' placeholder='What you have to do...'>
+    <button class='criar-tarefa' id='criar-tarefa'>Adicionar</button>
+</div>
+<h3>Itens Adicinados</h3>
+<hr>
+    <ol id='lista-tarefas'></ol>
+<hr><br>
+<button class='move' id="mover-cima">⏫ Move UP</button>
+<button class='move' id="mover-baixo">⏬ Move DOWN</button><br><br>
+<button class='apagar' id='remover-finalizados'>❌  Finalizados</button>
+<button class='apagar' id='remover-selecionado'>❌  Selecionado</button>
+<button class='apagar' id='apaga-tudo'>❌ Tudo</button><br><br>
+<button id="salvar-tarefas">✔️ Save</button>
+<script src='script.js'></script>
+</body>
+</html>
