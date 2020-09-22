@@ -1,0 +1,18 @@
+li {
+  max-width: max-content;
+}
+
+li:hover {
+  filter: drop-shadow(5px 1px 5px rgba(0, 0, 0, 0.5));
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 5px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
