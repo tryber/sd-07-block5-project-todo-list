@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project To Do List</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section class="section">
+            <div class="container">
+                <h1 class="title"> Minha Lista de Tarefas</h1>
+                <p class="subtitle" id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+            </div>
+
+        </section>
+
+    </header>
+    <section class="section">
+        <div class="field">
+            <div class="control">
+                <input class="input" placeholder="Digite sua Tarefa" type="text" name="tarefa" id="texto-tarefa">
+            </div>
+        </div>
+
+        <div class="field">
+            <button class="button is-primary" id="criar-tarefa">Adicionar</button>
+        </div>
+
+        <div class="content">
+        <ol id="lista-tarefas"></ol>
+        </div>
+
+        <section class="section">
+            <div class="field">
+            <button class="button is-danger"  id="apaga-tudo">Remover Todos</button>
+            <button class="button is-warning" id="remover-finalizados">Remover Finalizados</button> 
+            </div>
+            
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
