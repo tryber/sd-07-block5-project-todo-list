@@ -1,0 +1,19 @@
+button {
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+input {
+  border-color: blue;
+  border-radius: 8px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+  border-radius: 6px;
+  }
+
+  li {
+  background-color: chartreuse;
+  }
+  
