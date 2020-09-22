@@ -7,3 +7,8 @@ input {
     border-color: blue;
     border-radius: 8px;
 }
+
+.selected {
+    background-color: rgb(128, 128, 128);
+    border-radius: 6px;
+  }
