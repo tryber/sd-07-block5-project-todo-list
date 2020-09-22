@@ -12,3 +12,7 @@ input {
     background-color: rgb(128, 128, 128);
     border-radius: 6px;
   }
+
+  li {
+      background-color: chartreuse;
+  }
