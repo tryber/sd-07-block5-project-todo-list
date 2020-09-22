@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(46 , 180 , 75);
+  font-size: large;
+  margin-left: 100px;
+}
+
+header {
+  padding-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0 , 0 , 0);
+}
