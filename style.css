@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.container {
+    width: 85%;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin:  15px auto;
+    background-color: rgb(85, 239, 196);
+}
+
+.container header {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Ranchers', cursive;
+}
+
+.alignCenter {
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.view {
+    border: solid 1px black;
+    text-align: center;
+}
+
+.control {
+    border: solid 1px black;
+}
+
+#lista-tarefas li {
+    margin: 3px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(128, 128, 128);
+    
+}
+
+.completed {
+    text-decoration: line-through solid rgb(0,0,0);
+}
