@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List - 3º projeto do bloco 5</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- font-family: 'Josefin Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap" rel="stylesheet">
+    <!-- font-family: 'Cormorant Upright', serif; -->
+</head>
+
+<body>
+    <div id="principal" class="principal">
+        <header>
+            <h1 class="titulo">Minha Lista de Tarefas</h1>
+        </header>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+
+        <div class="cria">
+        <input type="text" id="texto-tarefa" class="texto-tarefa" />
+
+        <button id="criar-tarefa" class="cria-tarefa"><img src="./imgs/adicionar.png" alt=""></button>
+         </div>
+        <div class="lista">
+            <ol id="lista-tarefas" class="lista-tarefas">
+            </ol>
+        </div>
+
+
+        <div class="botoes">
+            <button id="apaga-tudo" class="apta-tudo">Limpar</button>
+            <button id="remover-finalizados" class="remover-finalizados">Apagar Finalizados</button>
+            <button id="salvar-tarefas" class="salvar-tarefas">Salvar Lista</button>
+            <button id="mover-cima" class="mover-cima">Mover para cima</button>
+            <button id="mover-baixo" class="mover-baixo">Mover para baixo</button>
+            <button id="remover-selecionado" class="remover-selecionado">Remover Item Selecionado</button>
+        </div>
+
+
+        <p id="avisos"></p>
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
