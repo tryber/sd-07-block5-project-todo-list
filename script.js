@@ -21,3 +21,10 @@ liTarefas.addEventListener('click', function (event) {
     selectClass.className += ' selected';
   });
 
+  // Remove tudo
+const clearButton = document.getElementById('apaga-tudo');
+clearButton.addEventListener('click', function () {
+  while (liTarefas.firstChild) {
+    liTarefas.removeChild(liTarefas.firstChild);
+  }
+});
