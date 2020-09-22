@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(128, 128, 128);
+}
+#card {
+    border: 20px solid;
+    border-image-slice: 1;
+    border-image-source: conic-gradient(
+            hsl(100, 100%, 60%),
+            hsl(200, 100%, 60%),
+            hsl(100, 100%, 60%));
+}
+header{
+    position: absolute;
+    top: 50px;
+    left: 480px;
+}
+.lista-tarefas{
+    position: absolute;
+    border: 1px black solid;
+    background-color: #B9D9EB;
+    width: 490px;
+    height: 350px;
+    top: 300px;
+    left: 550px;
+}
+#lista-tarefas{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.btnClear{
+position: absolute;
+    top: 410px;
+    left: -63px;
+}
+.clearReadyBtn{
+    position: absolute;
+    top: 410px;
+    left: 15px;
+
+}
+.borderInput{
+    left: 50px;
+    bottom:50px;
+    border:1px solid black;
+    width: 300px;
+    height:40px;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.container{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 193px;
+    left: 480px;
+
+}
+label{
+    position: absolute;
+    border: 1px black solid;
+    width: 105px;
+    height: 20px;
+    top: 58px;
+    background-color: white;
+    z-index: 9;
+    left: 1px;
+}
+.btn{
+    position: absolute;
+    top: 249px;
+    left: 615px
+}
+.inputText {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}

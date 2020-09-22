@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="style.css" media="screen">
+		<title>To-do-List</title>
+	</head>
+	<header>
+		<h1 id="titulo">
+			Minha Lista de Tarefas
+		</h1>
+		<h2 id="funcionamento">
+			<p>
+				Clique duas vezes em um item para marcá-lo como completo
+			</p>
+		</h2>
+	</header>
+	<body>
+		<section id="card"  class="container">
+				<section class="inputText">
+					<div class="borderInput">
+						<label for="texto-tarefa">Lista de Tarefas</label><input type="text" id="texto-tarefa">
+					</div>
+				</section>
+		</section>
+		<section class="lista-tarefas">
+			<ol id="lista-tarefas"></ol>
+		</section>
+		<section class="btn">
+			<button id="apaga-tudo" class="btnClear">Limpar Todos</button>
+			<button id="criar-tarefa">Adicionar</button>
+			<button id="remover-finalizados" class="clearReadyBtn">Apagar Listados</button>
+		</section>
+
+	<script src="script.js"></script>
+	</body>
+</html>
