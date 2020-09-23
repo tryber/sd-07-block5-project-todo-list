@@ -20,3 +20,10 @@ olListTask.addEventListener('click', function(event){
   }
      
 })
+
+
+olListTask.addEventListener('dblclick', function(event){
+    if (event.target.tagName === 'LI'){
+       event.target.classList.toggle('completed');
+    }
+   })
