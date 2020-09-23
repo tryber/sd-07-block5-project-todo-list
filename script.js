@@ -4,7 +4,19 @@ let olListTask = document.getElementById('lista-tarefas');
 
 buttonForTask.addEventListener('click', function(){
     let liOne = document.createElement('li');
-     liOne.innerText = inputTextTask.value
+     liOne.innerText = inputTextTask.value;
      olListTask.appendChild(liOne);
      inputTextTask.value = '';
+});
+
+
+olListTask.addEventListener('click', function(event){
+  if(event.target.tagName === 'LI'){
+    let allListSelec = document.querySelector('.selected');
+    if(allListSelec != null){
+        allListSelec.classList.remove('selected')
+    }
+    event.target.classList.add('selected');
+  }
+     
 })
