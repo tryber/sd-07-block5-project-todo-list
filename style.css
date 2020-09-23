@@ -1,0 +1,29 @@
+header {
+  text-align: center;
+  width: 100%;
+}
+
+ol {
+  font-size: 30px;
+  margin-left: 300px;
+  width: 30%;
+}
+
+body {
+  background-color: thistle;
+}
+
+.selected {
+  background-color: grey;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+button {
+  background-color: rgb(75 , 87 , 121);
+  border-radius: 10px;
+  color: white;
+  height: 30px;
+}
