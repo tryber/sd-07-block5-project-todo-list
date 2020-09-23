@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(46 , 156 , 129);
+  text-align: center;
+}
+
+.selecionado {
+  background-color: grey;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
