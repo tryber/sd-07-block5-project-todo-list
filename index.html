@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <div class="tarefa-input">
+      <input id="texto-tarefa" type="text" placeholder="tarefa">
+      <button id="criar-tarefa">adicionar</button>
+    </div>
+    <div class="lista-tarefas">
+      <ol id="lista-tarefas">
+      </ol>
+    </div>
+    <div class="buttons">
+      <button id="apaga-tudo">limpar lista</button>
+      <button id="remover-finalizados">remover completos</button>
+      <button id="remover-selecionado">remover</button>
+      <button id="mover-cima">&#8593;</button>
+      <button id="mover-baixo">&#8595;</button>
+      <button id="salvar-tarefas">salvar lista</button>
+    </div>
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>
