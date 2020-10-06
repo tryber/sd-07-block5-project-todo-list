@@ -34,6 +34,13 @@ exclude_patterns:
   - "**/libs/*.js"
   - "**/*.{gif,png,jpeg}"
   - "node_modules/"
+  - "forestadmin/"
+  - "cypress/"
+  - "cypress.json"
+  - "package-lock.json"
+  - "package.json"
+  - "reporter.json"
+  - "requirements_mapping.json"
 plugins:
   csslint:
     enabled: true
