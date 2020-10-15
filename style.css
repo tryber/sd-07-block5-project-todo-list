@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+
+.input {
+  display: inline-block;
+}
+
+.completed {
+  text-decoration: line-through;
+}
