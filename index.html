@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List Project</title>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+    </header>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <input id="texto-tarefa" type="text">
+    <ol id="lista-tarefas"></ol>
+    <button id="criar-tarefa">Criar tarefa!</button>
+    <button id="apaga-tudo">Resetar sua lista!</button>
+    <button id="remover-finalizados">Tarefa finalizada</button>
+    <button id="salvar-tarefas">Salvar suas tarefas!</button>
+    <button id="mover-cima">Mover para cima</button>
+    <button id="mover-baixo">Mover para baixo</button>
+    <button id="remover-selecionado">Remover selecionados</button>
+</body> 
+<script src="script.js"></script>
+<script>
+    botaoCriarTarefa.addEventListener("click", criarTarefa);
+    botaoApagaTudo.addEventListener("click", apagaTudo);
+    botaoRemoverFinalizados.addEventListener("click", removeFinalizados);
+    botaoSalvarTarefas.addEventListener("click", salvarTarefas);
+    botaoRemoverSelecionados.addEventListener("click", removeSelecionados);
+    botaoMoverCima.addEventListener("click", moverCima);
+    botaoMoverBaixo.addEventListener("click", moverBaixo);
+
+</script>
+
+</html>
