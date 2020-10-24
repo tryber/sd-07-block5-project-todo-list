@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        <input type="text" id="texto-tarefa" name="fname">
+        <button id="criar-tarefa" type="button">Adicionar</button>
+        <button id="apaga-tudo" type="button">Apagar lista</button>
+        <button id="remover-finalizados" type="button">Remover finalizados</button>
+        <button id="mover-cima">Mover <i class="fa fa-angle-double-up"></i></button>
+        <button id="mover-baixo">Mover <i class="fa fa-angle-double-down"></i></button>
+        <button id="remover-selecionado">Remover Item </button>
+
+        
+    </header>
+
+    <section>
+        <ol id="lista-tarefas"></ol>
+    </section>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
